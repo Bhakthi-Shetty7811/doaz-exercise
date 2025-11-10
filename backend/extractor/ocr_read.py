@@ -1,7 +1,7 @@
 import pytesseract
 import cv2
 
-TESS_CONFIG = r"-l eng --oem 1 --psm 6 -c tessedit_char_whitelist=0123456789.+-xX Øφ/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZmmin"
+TESS_CONFIG = r"-l eng --oem 3 --psm 6 -c tessedit_char_whitelist=0123456789.+-xX Øφ/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZmmin"
 
 def get_tesseract_version():
     try:

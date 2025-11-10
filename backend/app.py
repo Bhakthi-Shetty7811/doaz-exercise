@@ -76,7 +76,7 @@ async def extract(file: UploadFile = File(...)):
     except Exception as e:
         print(f"[ERROR] General file conversion failure: {e}")
         raise HTTPException(status_code=400, detail=f"File conversion failed: {str(e)}")
-
+    
     # --- Convert PIL → numpy ---
     try:
         img = np.array(pil_image)
@@ -92,6 +92,7 @@ async def extract(file: UploadFile = File(...)):
     boxes = detect_text_regions(gray, proc)
     ocrs = ocr_read.ocr_on_boxes(img, boxes)
     entities = [postprocess.build_entity(o) for o in ocrs]
+
 
     out = {
         "drawing_id": drawing_id,

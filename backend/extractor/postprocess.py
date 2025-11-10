@@ -1,13 +1,17 @@
-from .normalize import normalize_text
 import re
+import cv2
+import numpy as np
+from .normalize import normalize_text
 
 DIM_REGEXES = [
-    re.compile(r"(?P<symbol>[\u00D8\u03C6Øφ]?)\s*(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>mm|in)?\s*(?P<tolerance>±\s*\d+(?:\.\d+)?)?", re.I),
-    re.compile(r"(?P<value>\d+(?:\.\d+)?)\s*[x×]\s*(?P<value2>\d+(?:\.\d+)?)\s*(?P<unit>mm|in)?", re.I)
+    re.compile(r"(?P<value>\d+(?:\.\d+)?)\s*[x×]\s*(?P<value2>\d+(?:\.\d+)?)\s*(?P<unit>mm|in)?", re.I),
+    re.compile(r"(?P<symbol>[Øφ]?)\s*(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>mm|in)?\s*(?P<tolerance>±\s*\d+(?:\.\d+)?)?", re.I)
 ]
 
+
 def parse_dimension(text):
-    if not text: return None
+    if not text:
+        return None
     t = text.replace('\n',' ').strip()
     for rx in DIM_REGEXES:
         m = rx.search(t)
@@ -16,16 +20,26 @@ def parse_dimension(text):
             num = None
             unit = None
             tol = None
+
+            # First numeric value
             if gd.get('value'):
                 try:
                     num = float(gd['value'])
                 except:
                     num = None
-            if gd.get('unit'):
-                unit = gd['unit']
-            if gd.get('tolerance'):
-                tol = gd['tolerance']
+
+            # Unit 
+            unit = gd.get('unit')
+            if unit:
+                unit = unit.strip()
+
+            # Tolerance 
+            tol = gd.get('tolerance')
+            if tol:
+                tol = tol.replace(' ', '')
+
             return {'text': t, 'numeric_value': num, 'unit': unit, 'tolerance': tol}
+
     return {'text': t, 'numeric_value': None, 'unit': None, 'tolerance': None}
 
 def build_entity(ocr_result):
@@ -43,3 +57,4 @@ def build_entity(ocr_result):
         'confidence': ocr_result.get('conf', 0.0)
     }
     return ent
+
