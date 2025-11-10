@@ -7,6 +7,8 @@ import numpy as np
 from pdf2image import convert_from_path
 from PIL import Image, UnidentifiedImageError
 from backend.extractor import preprocess, detect_text_regions, ocr_read, postprocess
+from backend.differ.matcher import build_diff
+from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -109,6 +111,15 @@ async def extract(file: UploadFile = File(...)):
     print("Extraction completed successfully ✅")
     return out
 
+class DiffRequest(BaseModel):
+    base_json: dict
+    revised_json: dict
+    threshold: float = 0.75
+
+@app.post('/diff')
+async def diff(req: DiffRequest):
+    out = build_diff(req.base_json, req.revised_json, threshold=req.threshold)
+    return out
 
 if __name__ == "__main__":
     uvicorn.run("backend.app:app", host="0.0.0.0", port=8000, reload=True)
