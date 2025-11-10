@@ -1,0 +1,516 @@
+{
+  "base_drawing_id": "A3-JGS1EP-HAN-DD-E-0414R-001_R0",
+  "revised_drawing_id": "A3-JGS1EP-HAN-DD-E-0408B-001_RC",
+  "changes": [
+    {
+      "change_id": "chg_0001",
+      "type": "removed",
+      "entity_ref_before": "ent_0000",
+      "entity_ref_after": null,
+      "before": {
+        "text": "2",
+        "numeric_value": 2,
+        "bbox_px": [
+          375,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0002",
+      "type": "removed",
+      "entity_ref_before": "ent_0001",
+      "entity_ref_after": null,
+      "before": {
+        "text": "5",
+        "numeric_value": 5,
+        "bbox_px": [
+          587,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0003",
+      "type": "removed",
+      "entity_ref_before": "ent_0002",
+      "entity_ref_after": null,
+      "before": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          799,
+          2445,
+          9,
+          11
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0004",
+      "type": "removed",
+      "entity_ref_before": "ent_0003",
+      "entity_ref_after": null,
+      "before": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          1012,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0005",
+      "type": "removed",
+      "entity_ref_before": "ent_0004",
+      "entity_ref_after": null,
+      "before": {
+        "text": "6",
+        "numeric_value": 6,
+        "bbox_px": [
+          1224,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0006",
+      "type": "removed",
+      "entity_ref_before": "ent_0005",
+      "entity_ref_after": null,
+      "before": {
+        "text": "7",
+        "numeric_value": 7,
+        "bbox_px": [
+          1436,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0007",
+      "type": "removed",
+      "entity_ref_before": "ent_0006",
+      "entity_ref_after": null,
+      "before": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          1649,
+          2445,
+          8,
+          11
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0008",
+      "type": "removed",
+      "entity_ref_before": "ent_0007",
+      "entity_ref_after": null,
+      "before": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          1861,
+          2444,
+          8,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0009",
+      "type": "removed",
+      "entity_ref_before": "ent_0008",
+      "entity_ref_after": null,
+      "before": {
+        "text": "10",
+        "numeric_value": 10,
+        "bbox_px": [
+          2070,
+          2444,
+          15,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0010",
+      "type": "removed",
+      "entity_ref_before": "ent_0009",
+      "entity_ref_after": null,
+      "before": {
+        "text": "17",
+        "numeric_value": 17,
+        "bbox_px": [
+          2284,
+          2445,
+          11,
+          11
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0011",
+      "type": "removed",
+      "entity_ref_before": "ent_0010",
+      "entity_ref_after": null,
+      "before": {
+        "text": "12",
+        "numeric_value": 12,
+        "bbox_px": [
+          2495,
+          2444,
+          14,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0012",
+      "type": "removed",
+      "entity_ref_before": "ent_0011",
+      "entity_ref_after": null,
+      "before": {
+        "text": "14",
+        "numeric_value": 14,
+        "bbox_px": [
+          2919,
+          2445,
+          15,
+          11
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0013",
+      "type": "removed",
+      "entity_ref_before": "ent_0012",
+      "entity_ref_after": null,
+      "before": {
+        "text": "15",
+        "numeric_value": 15,
+        "bbox_px": [
+          3132,
+          2444,
+          14,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0014",
+      "type": "removed",
+      "entity_ref_before": "ent_0013",
+      "entity_ref_after": null,
+      "before": {
+        "text": "16",
+        "numeric_value": 16,
+        "bbox_px": [
+          3356,
+          2444,
+          14,
+          12
+        ]
+      },
+      "after": null,
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0015",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0000",
+      "before": null,
+      "after": {
+        "text": "2",
+        "numeric_value": 2,
+        "bbox_px": [
+          527,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0016",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0001",
+      "before": null,
+      "after": {
+        "text": "5",
+        "numeric_value": 5,
+        "bbox_px": [
+          828,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0017",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0002",
+      "before": null,
+      "after": {
+        "text": "4",
+        "numeric_value": 4,
+        "bbox_px": [
+          1128,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0018",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0003",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          1430,
+          3464,
+          10,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0019",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0004",
+      "before": null,
+      "after": {
+        "text": "5",
+        "numeric_value": 5,
+        "bbox_px": [
+          1731,
+          3464,
+          10,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0020",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0005",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          2031,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0021",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0006",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          2332,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0022",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0007",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          2633,
+          3464,
+          10,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0023",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0008",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          2938,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0024",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0009",
+      "before": null,
+      "after": {
+        "text": "2",
+        "numeric_value": 2,
+        "bbox_px": [
+          3540,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0025",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0010",
+      "before": null,
+      "after": {
+        "text": "",
+        "numeric_value": null,
+        "bbox_px": [
+          3841,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0026",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0011",
+      "before": null,
+      "after": {
+        "text": "4",
+        "numeric_value": 4,
+        "bbox_px": [
+          4142,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0027",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0012",
+      "before": null,
+      "after": {
+        "text": "5",
+        "numeric_value": 5,
+        "bbox_px": [
+          4443,
+          3464,
+          11,
+          14
+        ]
+      },
+      "similarity": 0
+    },
+    {
+      "change_id": "chg_0028",
+      "type": "added",
+      "entity_ref_before": null,
+      "entity_ref_after": "ent_0013",
+      "before": null,
+      "after": {
+        "text": "5",
+        "numeric_value": 5,
+        "bbox_px": [
+          4762,
+          3464,
+          10,
+          14
+        ]
+      },
+      "similarity": 0
+    }
+  ],
+  "summary": {
+    "added": 14,
+    "removed": 14,
+    "modified": 0,
+    "moved": 0
+  }
+}

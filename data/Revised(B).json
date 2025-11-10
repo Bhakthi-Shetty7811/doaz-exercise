@@ -1,0 +1,242 @@
+{
+  "drawing_id": "A3-JGS1EP-HAN-DD-E-0408B-001_RC",
+  "page": 1,
+  "image_size_px": {
+    "width": 4963,
+    "height": 3509
+  },
+  "scale_note": null,
+  "entities": [
+    {
+      "id": "ent_0000",
+      "type": "dimension",
+      "text": "2",
+      "numeric_value": 2,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        527,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0001",
+      "type": "dimension",
+      "text": "5",
+      "numeric_value": 5,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        828,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0002",
+      "type": "dimension",
+      "text": "4",
+      "numeric_value": 4,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        1128,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0003",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        1430,
+        3464,
+        10,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0004",
+      "type": "dimension",
+      "text": "5",
+      "numeric_value": 5,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        1731,
+        3464,
+        10,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0005",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        2031,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0006",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        2332,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0007",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        2633,
+        3464,
+        10,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0008",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        2938,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0009",
+      "type": "dimension",
+      "text": "2",
+      "numeric_value": 2,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        3540,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0010",
+      "type": "annotation",
+      "text": "",
+      "numeric_value": null,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        3841,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0011",
+      "type": "dimension",
+      "text": "4",
+      "numeric_value": 4,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        4142,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0012",
+      "type": "dimension",
+      "text": "5",
+      "numeric_value": 5,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        4443,
+        3464,
+        11,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    },
+    {
+      "id": "ent_0013",
+      "type": "dimension",
+      "text": "5",
+      "numeric_value": 5,
+      "unit": null,
+      "tolerance": null,
+      "bbox_px": [
+        4762,
+        3464,
+        10,
+        14
+      ],
+      "anchor_points_px": null,
+      "confidence": 0.9
+    }
+  ],
+  "meta": {
+    "extraction_time_ms": 2069,
+    "engine_versions": {
+      "ocr": "5.5.0.20241111",
+      "detector": "opencv-contours"
+    }
+  }
+}
